@@ -1,0 +1,40 @@
+// Copyright (c) 2016-2018 VMware, Inc. All Rights Reserved.
+// This software is released under MIT license.
+// The full license information can be found in LICENSE in the root directory of this project.
+
+$clr-calendar-click-target: null !default;
+$clr-calendar-background-color: null !default;
+$clr-calendar-border-color: null !default;
+$clr-datepicker-trigger-color: null !default;
+$clr-datepicker-trigger-hover-color: null !default;
+$clr-calendar-margin-top: null !default;
+$clr-calendar-padding: null !default;
+
+$clr-calendar-width: null !default;
+//(No of days in the week * 36px + 2 * 12px padding + 2px for border
+
+$clr-calendar-height: null !default;
+//(8 = 6 date rows + 1 row for day heading + 1 row for calendar switches and month/year pickers)
+
+$clr-calendar-btn-color: null !default;
+$clr-calendar-btn-hover-focus-color: null !default;
+$clr-calendar-btn-padding: null !default;
+
+$clr-calendar-month-cell-height: null !default;
+$clr-calendar-month-cell-padding: null !default;
+
+$clr-calendar-picker-btn-font-size: null !default;
+$clr-calendar-picker-btn-font-weight: null !default;
+
+$clr-calendar-today-date-cell-color: null !default;
+$clr-calendar-today-date-cell-font-weight: null !default;
+
+$clr-calendar-active-cell-background-color: null !default;
+$clr-calendar-active-focus-cell-background-color: null !default;
+$clr-calendar-active-cell-color: null !default;
+
+$clr-day-font-size: null !default;
+$clr-switcher-width: null !default;
+
+$clr-monthpicker-min-height: null !default;
+$clr-month-year-btn-width: null !default;

@@ -1,0 +1,59 @@
+// Copyright (c) 2016-2018 VMware, Inc. All Rights Reserved.
+// This software is released under MIT license.
+// The full license information can be found in LICENSE in the root directory of this project.
+
+// Structure
+$clr-forms-baseline: null !default;
+$clr-forms-icon-size: null !default;
+$clr-form-disabled-background-color: null !default;
+
+// Generic
+$clr-forms-label-color: null !default;
+$clr-forms-text-color: null !default;
+$clr-forms-invalid-color: null !default;
+$clr-forms-subtext-color: null !default;
+$clr-forms-border-color: null !default;
+$clr-forms-focused-color: null !default;
+$clr-forms-disabled-opacity: null !default;
+
+// Textarea
+$clr-forms-textarea-background-color: null !default;
+
+// Select
+$clr-forms-select-hover-background: null !default; // CAN WE KEY THIS FROM A KNOWN COLOR
+$clr-forms-select-caret-hover-color: null !default;
+$clr-forms-select-caret-color: null !default;
+$clr-forms-select-caret-size: null !default;
+$clr-forms-select-option-color: null !default;
+$clr-forms-select-multiple-background-color: null !default;
+$clr-forms-select-multiple-border-color: null !default;
+$clr-forms-select-multiple-option-color: null !default;
+
+// Checkbox
+$clr-forms-checkbox-size: null !default;
+$clr-forms-checkbox-label-height: null !default;
+$clr-forms-checkbox-label-color: null !default;
+$clr-forms-checkbox-height: null !default;
+$clr-forms-checkbox-padding-left: null !default;
+$clr-forms-checkbox-top: null !default;
+$clr-forms-checkbox-background-color: null !default; // Use color here
+$clr-forms-checkbox-checked-shadow: null !default;
+$clr-forms-checkbox-indeterminate-border-color: null !default;
+$clr-forms-checkbox-mark-size: null !default;
+$clr-forms-checkbox-border-style: null !default;
+$clr-forms-checkbox-mark-color: null !default;
+$clr-forms-checkbox-disabled-background-color: null !default;
+$clr-forms-checkbox-disabled-mark-color: null !default;
+
+// Radio
+$clr-forms-radio-size: null !default;
+$clr-forms-radio-label-height: null !default;
+$clr-forms-radio-label-color: null !default;
+$clr-forms-radio-height: null !default;
+$clr-forms-radio-padding-left: null !default;
+$clr-forms-radio-top: null !default;
+$clr-forms-radio-selected-shadow: null !default;
+$clr-forms-radio-focused-shadow: null !default;
+$clr-forms-radio-disabled-background-color: null !default;
+$clr-forms-radio-disabled-mark-color: null !default;
+$clr-forms-radio-disabled-shadow: null !default;

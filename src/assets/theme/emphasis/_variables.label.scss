@@ -1,0 +1,33 @@
+// Copyright (c) 2016-2018 VMware, Inc. All Rights Reserved.
+// This software is released under MIT license.
+// The full license information can be found in LICENSE in the root directory of this project.
+
+// Usage: ./_labels.clarity.scss
+$clr-label-padding-top-bottom: null !default;
+$clr-label-padding-left-right: null !default;
+
+// Usage:
+// - ./_labels.clarity.scss
+// - ../utils/_maps.clarity.scss
+$clr-label-font-color: null !default;
+
+// Usage: ../utils/_maps.clarity.scss
+$clr-label-font-color-contrast: null !default;
+$clr-label-bg-hover-color: null !default;
+$clr-label-gray-bg-color: null !default;
+$clr-label-purple-bg-color: null !default;
+$clr-label-blue-bg-color: null !default;
+$clr-label-orange-bg-color: null !default;
+$clr-label-light-blue-bg-color: null !default;
+$clr-label-info-bg-color: null !default;
+$clr-label-info-font-color: null !default;
+$clr-label-info-border-color: null !default;
+$clr-label-success-bg-color: null !default;
+$clr-label-success-font-color: null !default;
+$clr-label-success-border-color: null !default;
+$clr-label-warning-bg-color: null !default;
+$clr-label-warning-font-color: null !default;
+$clr-label-warning-border-color: null !default;
+$clr-label-danger-bg-color: null !default;
+$clr-label-danger-font-color: null !default;
+$clr-label-danger-border-color: null !default;

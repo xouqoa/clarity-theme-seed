@@ -1,0 +1,20 @@
+// Copyright (c) 2016-2018 VMware, Inc. All Rights Reserved.
+// This software is released under MIT license.
+// The full license information can be found in LICENSE in the root directory of this project.
+
+// Usage: ../stack-view/_stack-view.clarity.scss
+$clr-stack-view-border-color: null !default; // Border for stack view container
+$clr-stack-font-weight: null !default;
+$clr-stack-view-bg-color: null !default;
+$clr-stack-view-stack-block-border-bottom: null !default; //border-bottom for stack-view rows (not last)
+$clr-stack-view-border-box-color: null !default;
+$clr-stack-block-changed-border-top-color: null !default;
+$clr-stack-view-stack-block-label-and-content-bg-color: null !default; // stkvw row bg color when not expanded
+$clr-stack-view-stack-children-stack-block-border-bottom-color: null !default; // children of an expanded row
+$clr-stack-view-stack-children-stack-block-label-and-content-bg-color: null !default; // children of an expanded row
+$clr-stack-view-stack-block-label-text-color: null !default;
+$clr-stack-view-stack-block-expanded-bg-color: null !default;
+$clr-stack-view-stack-block-expandable-hover: null !default;
+$clr-stack-view-stack-block-content-text-color: null !default;
+$clr-stack-view-stack-block-expanded-text-color: null !default;
+$styledInputs: null !default;

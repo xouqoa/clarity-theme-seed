@@ -1,0 +1,30 @@
+// Copyright (c) 2016-2018 VMware, Inc. All Rights Reserved.
+// This software is released under MIT license.
+// The full license information can be found in LICENSE in the root directory of this project.
+
+// Usage: ../button/_toggles.clarity.scss
+// Toggle
+$clr-toggle-height: null !default;
+$clr-toggle-switch-base-height: null !default;
+$clr-toggle-switch-base-width: null !default;
+$clr-toggle-switch-height: null !default;
+$clr-toggle-switch-base-left-spacing: null !default;
+$clr-toggle-switch-left-spacing: null !default;
+$clr-toggle-transition-time: null !default;
+$clr-toggle-transition-animation: null !default;
+
+// Usage: ../button/_toggles.clarity.scss
+// Colors (disabled)
+$clr-toggle-disabled-off-bg-color: null !default;
+$clr-toggle-disabled-off-border-color: null !default;
+$clr-toggle-disabled-off-bg-color: null !default; // Also sets disabled/on inner part of handle circle.
+$clr-toggle-disabled-off-handle-border-color: null !default;
+$clr-toggle-disabled-on-border-color: null !default;
+$clr-toggle-disabled-on-bg-color: null !default;
+$clr-toggle-disabled-on-handle-border-color: null !default;
+
+// Usage: ../button/_toggles.clarity.scss
+// Colors (enabled)
+$clr-toggle-bg-color-off: null !default;
+$clr-toggle-bg-color-on: null !default;
+$clr-toggle-handle-bg-color: null !default;

@@ -1,0 +1,22 @@
+// Copyright (c) 2016-2018 VMware, Inc. All Rights Reserved.
+// This software is released under MIT license.
+// The full license information can be found in LICENSE in the root directory of this project.
+
+// Usages: This file
+$card-light: null !default;
+
+// Usages: ./layout/_card.clarity.scss
+$card-text-fontsize: null !default;
+
+// Usages: ../layout/_card.clarity.scss
+// Usages: ../progress/progress-bars/_progress-bars.scss
+$card-children-padding-vertical: null !default;
+
+// Usage: ../layout/_card.clarity.scss
+$card-children-padding-horizontal: null !default;
+$card-children-space-between: null !default;
+$clr-card-bg-color: null !default;
+$clr-card-border-color: null !default;
+$clr-card-box-shadow: null !default;
+$clr-card-border: null !default;
+$clr-card-divider-color: null !default;

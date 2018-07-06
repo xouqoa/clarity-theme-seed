@@ -1,0 +1,127 @@
+// Copyright (c) 2016-2018 VMware, Inc. All Rights Reserved.
+// This software is released under MIT license.
+// The full license information can be found in LICENSE in the root directory of this project.
+
+// General
+// Usage: ./_buttons.clarity.scss
+// Usage: ../popover/tooltip/_tooltips.clarity.scss
+$clr-button-vertical-margin: null !default;
+
+// Usage: ./_buttons.clarity.scss
+// Usage: ../popover/tooltip/_tooltips.clarity.scss
+// Usage: ../layout/_card.clarity.scss
+$clr-button-horizontal-margin: null !default;
+
+// Usage: ./_buttons.clarity.scss
+// Usage: ../popover/dropdown/_dropdown.clarity.scss
+$clr-button-horizontal-padding: null !default;
+
+// Usage: ../utils/_maps.clarity.scss
+$clr-button-height: null !default;
+$clr-button-height-sm: null !default;
+$clr-button-padding: null !default;
+
+// Default button colors
+// Usage: ../utils/_maps.clarity.scss
+$clr-btn-default-color: null !default; // border-color, color, checked-background-color
+$clr-btn-default-bg-color: null !default; // background-color, disabled-background-color
+$clr-btn-default-hover-bg-color: null !default; // hover-background-color
+$clr-btn-default-hover-color: null !default; // hover-color
+$clr-btn-default-box-shadow-color: null !default; // active-box-shadow-color
+$clr-btn-default-disabled-color: null !default; // disabled-color
+$clr-btn-default-disabled-border-color: null !default; // disabled-border-color
+$clr-btn-default-checked-color: null !default; // checked-color
+
+// Default outline button
+$clr-btn-default-outline-color: null !default; // border-color, color, checked-background-color
+$clr-btn-default-outline-bg-color: null !default; // background-color, disabled-background-color
+$clr-btn-default-outline-hover-bg-color: null !default; // hover-background-color
+$clr-btn-default-outline-hover-color: null !default; // hover-color
+$clr-btn-default-outline-box-shadow-color: null !default; // active-box-shadow-color
+//$clr-btn-default-outline-checked-color: null !default; // checked-color
+$clr-btn-default-outline-disabled-color: null !default; // disabled-color
+$clr-btn-default-outline-disabled-border-color: null !default; // disabled-border-color
+$clr-btn-default-outline-checked-color: null !default;
+
+// Primary button colors
+// Usage: ../utils/_maps.clarity.scss
+$clr-btn-primary-color: null !default; // color, checked-background-color
+$clr-btn-primary-bg-color: null !default; // background-color, disabled-background-color
+$clr-btn-primary-border-color: null !default; // border-color
+$clr-btn-primary-hover-bg-color: null !default; // hover-background-color
+$clr-btn-primary-hover-color: null !default; // hover-color
+$clr-btn-primary-box-shadow-color: null !default; // active-box-shadow-color
+$clr-btn-primary-disabled-color: null !default; // disabled-color
+$clr-btn-primary-disabled-bg-color: null !default; // disabled-bg-color
+$clr-btn-primary-disabled-border-color: null !default; // disabled-border-color
+$clr-btn-primary-checked-color: null !default; // checked-color
+
+// Success button colors
+// Usage: ../utils/_maps.clarity.scss
+$clr-btn-success-color: null !default; // color, checked-color,
+$clr-btn-success-bg-color: null !default; // background-color, border-color
+$clr-btn-success-hover-bg-color: null !default; // hover-background-color
+$clr-btn-success-hover-color: null !default; // hover-color
+$clr-btn-success-box-shadow-color: null !default; // active-box-shadow-color
+$clr-btn-success-disabled-color: null !default; // disabled-color
+$clr-btn-success-disabled-bg-color: null !default; // disabled-background-color
+$clr-btn-success-disabled-border-color: null !default; // disabled-border-color
+$clr-btn-success-checked-bg-color: null !default; // checked-background-color
+
+// Success outline button colors
+// Usage: ../utils/_maps.clarity.scss
+$clr-btn-success-outline-color: null !default; // color
+$clr-btn-success-outline-border-color: null !default; // border-color, checked-background-color
+$clr-btn-success-outline-hover-bg-color: null !default; // hover-background-color
+$clr-btn-success-outline-hover-color: null !default; // hover-color
+$clr-btn-success-outline-box-shadow-color: null !default; // active-box-shadow-color
+$clr-btn-success-outline-disabled-color: null !default; // disabled-color
+$clr-btn-success-outline-disabled-bg-color: null !default; // disabled-background-color
+$clr-btn-success-outline-disabled-border-color: null !default; // disabled-border-color
+$clr-btn-success-outline-checked-color: null !default; // checked-color
+
+// Danger button colors
+// Usage: ../utils/_maps.clarity.scss
+$clr-btn-danger-color: null !default; // color, checked-color,
+$clr-btn-danger-bg-color: null !default; // background-color, border-color
+$clr-btn-danger-hover-bg-color: null !default; // hover-background-color
+$clr-btn-danger-hover-color: null !default; // hover-color
+$clr-btn-danger-box-shadow-color: null !default; // active-box-shadow-color
+$clr-btn-danger-disabled-color: null !default; // disabled-color,
+$clr-btn-danger-disabled-bg-color: null !default; // disabled-background-color
+$clr-btn-danger-disabled-border-color: null !default; // disabled-border-color
+$clr-btn-danger-checked-bg-color: null !default; // checked-background-color
+
+// Danger outline button colors
+// Usage: ../utils/_maps.clarity.scss
+$clr-btn-danger-outline-border-color: null !default; // border-color
+$clr-btn-danger-outline-color: null !default; // color
+$clr-btn-danger-outline-hover-bg-color: null !default; // hover-background-color
+$clr-btn-danger-outline-hover-color: null !default; // hover-color
+$clr-btn-danger-outline-box-shadow-color: null !default; // active-box-shadow-color
+$clr-btn-danger-outline-disabled-color: null !default; // disabled-color
+$clr-btn-danger-outline-checked-bg-color: null !default; // checked-background-color
+$clr-btn-danger-outline-checked-color: null !default; // checked-color
+
+// Link button colors
+// Usage: ../utils/_maps.clarity.scss
+$clr-btn-link-color: null !default; // color
+$clr-btn-link-hover-color: null !default; // hover-color
+$clr-btn-link-disabled-color: null !default; // disabled-color
+$clr-btn-link-checked-color: null !default; // checked-color
+
+// Inverse button colors
+// Usage: ../utils/_maps.clarity.scss
+$clr-btn-inverse-border-color: null !default; // border-color
+$clr-btn-inverse-bg-color: null !default; // background-color
+$clr-btn-inverse-color: null !default; // color
+$clr-btn-inverse-hover-bg-color: null !default; // hover-background-color
+$clr-btn-inverse-hover-color: null !default; // hover-color
+$clr-btn-inverse-box-shadow-color: null !default; // active-box-shadow-color
+$clr-btn-inverse-disabled-color: null !default; // disabled-color
+$clr-btn-inverse-disabled-border-color: null !default; // disabled-border-color
+$clr-btn-inverse-checked-bg-color: null !default; // checked-background-color
+$clr-btn-inverse-checked-color: null !default;
+
+// For theme-able icon button color
+$clr-button-icon-disabled-color: null !default;

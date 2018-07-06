@@ -1,0 +1,42 @@
+// Copyright (c) 2016-2018 VMware, Inc. All Rights Reserved.
+// This software is released under MIT license.
+// The full license information can be found in LICENSE in the root directory of this project.
+
+// TODO: optimize the component default variables for theming
+$clr-wizard-main-bgcolor: null !default;
+$clr-wizard-sidenav-bgcolor: null !default;
+$clr-wizard-default-space: null !default;
+$clr-wizard-main-textColor: null !default;
+$clr-wizard-sidenav-text: null !default;
+$clr-wizard-sidenav-text--active: null !default;
+$clr-wizard-title-text: null !default;
+$clr-wizard-stepnav-border-size: null !default;
+$clr-wizard-stepnav-border-color: null !default;
+$clr-wizard-stepnav-border-color--active: null !default;
+$clr-wizard-footer-height: null !default;
+$clr-wizard-stepnav-active-bgcolor: null !default; // TODO: consolidate color values into semantic variable names
+$clr-wizard-header-action-color: null !default;
+$clr-wizard-header-action-color--hovered: null !default;
+$clr-wizard-box-shadow: null !default;
+$clr-wizard-step-nav-border-color: null !default;
+
+$clr-wizard-all-dialog-min-width: null !default;
+$clr-wizard-all-dialog-min-height: null !default;
+$clr-wizard-md-nav-min-width: null !default;
+$clr-wizard-md-nav-max-width: null !default;
+$clr-wizard-md-dialog-max-height: null !default;
+$clr-wizard-lg-nav-min-width: null !default;
+$clr-wizard-lg-nav-max-width: null !default;
+$clr-wizard-lg-dialog-max-height: null !default;
+$clr-wizard-xl-nav-min-width: null !default;
+$clr-wizard-xl-nav-max-width: null !default;
+$clr-wizard-xl-dialog-max-height: null !default;
+
+//TODO: Deprecate the variables below for v0.12
+$clr-wizard-ghost-1: null !default; // TODO: consolidate color values into semantic variable names
+$clr-wizard-ghost-2: null !default; // TODO: consolidate color values into semantic variable names
+$clr-wizard-ghost-wrapper-width: null !default;
+$clr-wizard-ghost-panel-width: null !default;
+$clr-wizard-ghost-wrapper-padding: null !default;
+$clr-wizard-ghost-shadow: null !default;
+$clr-wizard-ghost-dialog-default-width: null !default;

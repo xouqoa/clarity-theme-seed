@@ -1,0 +1,67 @@
+// Copyright (c) 2016-2018 VMware, Inc. All Rights Reserved.
+// This software is released under MIT license.
+// The full license information can be found in LICENSE in the root directory of this project.
+
+// Usage: ../typography/_typography.clarity.scss
+$clr-fontSkipBase64: null !default;
+$clr-font: null !default; //Default font stack for Clarity
+
+// Usage: ../data/datagrid/_datagrid.clarity.scss
+// Usage: ../typography/_typography.clarity.scss
+$clr-app-font-color-primary: null !default;
+
+// Usage: ../utils/_maps.clarity.scss
+$clr-altFont: null !default; //TODO: TBD. Alternative font for Clarity
+
+// Usage: ../code/syntax-highlight/_code.clarity.scss
+$clr-monoFont: null !default;
+
+// Usage: ../typography/_typography.clarity.scss
+// Usage: ../utils/_helpers.clarity.scss
+$clr-font-base-size: null !default; // Moved to general for now. Needs a better general name
+
+// TODO abstract font-weights into variables.
+$clr-font-weights: (
+  light: 200,
+  regular: 400,
+  semibold: 500,
+  bold: 600
+) !default;
+
+// Usage: ../utils/_maps.clarity.scss
+$clr-kerning-lotsatext: null !default; // 14px, but a lot of it
+$clr-kerning-smalltext: null !default; // 14px-12px
+$clr-kerning-bigtext: null !default; // some types of 16px over dark background
+$clr-kerning-tinytext: null !default; // 11px and lower
+$clr-typography-lightfont: null !default;
+$clr-typography-regfont: null !default;
+$clr-typography-sboldfont: null !default;
+$clr-typography-boldfont: null !default;
+
+// Usage: ../utils/_maps.clarity.scss
+// Paragraphs
+$clr-typography-smalltext: null !default; // 13px
+$clr-typography-xsmalltext: null !default; // 12px
+$clr-typography-xxsmalltext: null !default; // 11px
+$clr-typography-tinytext: null !default; // 10px
+
+// Header colors
+$clr-h1-color: null !default;
+$clr-h2-color: null !default;
+$clr-h3-color: null !default;
+$clr-h4-color: null !default;
+$clr-h5-color: null !default;
+$clr-h6-color: null !default;
+
+// Paragraph colors
+$clr-p1-color: null !default;
+$clr-p2-color: null !default;
+$clr-p3-color: null !default;
+$clr-p4-color: null !default;
+$clr-p5-color: null !default;
+$clr-p6-color: null !default;
+$clr-p7-color: null !default;
+$clr-p8-color: null !default;
+
+// Usage: ../typography/_typography.clarity.scss
+$clr-typography-commonmap-key: null !default;

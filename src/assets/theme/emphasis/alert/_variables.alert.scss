@@ -1,0 +1,72 @@
+// Copyright (c) 2016-2018 VMware, Inc. All Rights Reserved.
+// This software is released under MIT license.
+// The full license information can be found in LICENSE in the root directory of this project.
+
+// Alert font color
+// Usage: This file only
+$clr-app-level-alert-color: null !default;
+
+// Dimensions & Layout
+// Usage: ./_alert.clarity.scss
+$clr-icon-margin-right: null !default;
+$clr-icon-dimension-sm: null !default;
+$clr-alert-icon-dimension-sm: null !default;
+$clr-alert-top-margin: null !default;
+$clr-alert-min-height: null !default;
+$clr-alert-horizontal-padding: null !default;
+$clr-alert-top-padding: null !default;
+$clr-alert-bottom-padding: null !default;
+$clr-alert-item-min-height: null !default;
+
+// Info type
+// Usage: ../utils/_maps.clarity.scss
+$clr-alert-info-bg-color: null !default;
+$clr-alert-info-font-color: null !default;
+$clr-alert-info-border-color: null !default;
+$clr-alert-info-icon-color: null !default;
+
+// Success type
+// Usage: ../utils/_maps.clarity.scss
+$clr-alert-success-bg-color: null !default;
+$clr-alert-success-font-color: null !default;
+$clr-alert-success-border-color: null !default;
+$clr-alert-success-icon-color: null !default;
+
+// Warning type
+// Usage: ../utils/_maps.clarity.scss
+$clr-alert-warning-bg-color: null !default;
+$clr-alert-warning-font-color: null !default;
+$clr-alert-warning-border-color: null !default;
+$clr-alert-warning-icon-color: null !default;
+
+// Danger type
+// Usage: ../utils/_maps.clarity.scss
+$clr-alert-danger-bg-color: null !default;
+$clr-alert-danger-font-color: null !default;
+$clr-alert-danger-border-color: null !default;
+$clr-alert-danger-icon-color: null !default;
+
+// App Info type
+// Usage: ../utils/_maps.clarity.scss
+$clr-app-alert-info-bg-color: null !default;
+$clr-app-alert-info-font-color: null !default;
+$clr-app-alert-info-border-color: null !default;
+$clr-app-alert-info-icon-color: null !default;
+
+// App Warning type
+// Usage: ../utils/_maps.clarity.scss
+$clr-app-alert-warning-bg-color: null !default;
+$clr-app-alert-warning-icon-color: null !default;
+$clr-app-alert-warning-border-color: null !default;
+$clr-app-alert-warning-font-color: null !default;
+
+// App Danger type
+// Usage: ../utils/_maps.clarity.scss
+$clr-app-alert-danger-bg-color: null !default;
+$clr-app-alert-danger-icon-color: null !default;
+$clr-app-alert-danger-font-color: null !default;
+$clr-app-alert-danger-border-color: null !default;
+
+$clr-alert-action-color: null !default; // Used for 'close' button in dropdowns on the right side of an alert
+$clr-alert-action-active-color: null !default;
+$clr-app-alert-close-icon-color: null !default; // Color for the 'X' in an alert

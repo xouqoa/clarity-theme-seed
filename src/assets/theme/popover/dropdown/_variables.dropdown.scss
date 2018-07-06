@@ -1,0 +1,26 @@
+// Copyright (c) 2016-2018 VMware, Inc. All Rights Reserved.
+// This software is released under MIT license.
+// The full license information can be found in LICENSE in the root directory of this project.
+
+// Usage:  ../data/stack-view/_stack-view.clarity.scss
+// Usage: ../forms/_select.clarity.scss
+// Usage: ../layout/nav/_sidenav.clarity.scss
+// Usage: ../popover/dropdown/_dropdown.clarity.scss
+$clr-dropdown-caret-icon-dimension: null !default;
+
+// Usage: ../popover/dropdown/_dropdown.clarity.scss
+$clr-dropdown-active-text-color: null !default;
+$clr-dropdown-caret-left-margin: null !default;
+$clr-dropdown-bg-color: null !default;
+$clr-dropdown-text-color: null !default;
+$clr-dropdown-item-text-color: null !default;
+$clr-dropdown-border-color: null !default;
+$clr-dropdown-divider-color: null !default;
+$clr-dropdown-child-border-color: null !default;
+$clr-dropdown-bg-hover-color: null !default;
+$clr-dropdown-selection-color: null !default;
+$clr-dropdown-box-shadow: null !default;
+$clr-dropdown-header-color: null !default;
+
+// TODO - Remove? No usages found
+$clr-dropdown-bg-active-color: null !default;

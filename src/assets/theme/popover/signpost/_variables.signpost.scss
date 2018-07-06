@@ -1,0 +1,14 @@
+// Copyright (c) 2016-2018 VMware, Inc. All Rights Reserved.
+// This software is released under MIT license.
+// The full license information can be found in LICENSE in the root directory of this project.
+
+// Usage: ../signpost/_signpost.clarity.scss
+$clr-signpost-action-color: null !default;
+$clr-signpost-outerBorder: null !default;
+$clr-signpost-innerBlock: null !default;
+$clr-signpost-border-size: null !default;
+// TODO: should be able to theme the colors in these pointers...
+$clr-signpost-pointer-border: null !default;
+$clr-signpost-pointer-invisible-border: null !default;
+$clr-signpost-pointer-psuedo-border: null !default;
+$clr-signpost-action-hover-color: null !default;
